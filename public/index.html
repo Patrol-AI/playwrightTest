@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Screenshot Elements Test</title>
+  <style>
+    @keyframes moveBackAndForth {
+      0% {
+        transform: translateX(0);
+      }
+
+      50% {
+        transform: translateX(100px);
+      }
+
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    #word2 {
+      display: none;
+    }
+
+    #word3 {
+      visibility: hidden;
+    }
+
+    #word4 {
+      opacity: 0;
+    }
+
+    #word5 {
+      width: 0;
+      height: 0;
+      overflow: hidden;
+    }
+
+    #word6 {
+      animation: moveBackAndForth 2s infinite;
+    }
+
+    #word7 {
+      position: relative;
+    }
+
+    #word8 {
+      position: absolute;
+      top: -1000px;
+      left: -1000px;
+    }
+
+    .word {
+      width: 50px;
+      height:50px;
+      margin:10px;
+      padding:10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="word1" class="word">Word 1</div>
+  <div id="word2" class="word">Word 2</div>
+  <div id="word3" class="word">Word 3</div>
+  <div id="word4" class="word">Word 4</div>
+  <div id="word5" class="word">Word 5</div>
+  <div id="word6" class="word">Word 6</div>
+  <div id="word7" class="word">Word 7</div>
+  <div id="word8" class="word">Word 8</div>
+  <div style="position: absolute;
+    top: 330px;
+    left: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: gray;"></div>
+</body>
+
+</html>
