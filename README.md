@@ -43,6 +43,12 @@ npm install
 npx playwright install
 ```
 
+## Important Note on Automated Image Comparison
+
+The 8 test images were taken using google chrome running on Linux Mint. If using a different browser or OS, the images 
+might not match perfectly due to differences in font. Do not worry if you fail the automated evaluation as long as the 
+captured screenshots pass the eye test and look close enough to the example pictures. 
+
 
 
 
