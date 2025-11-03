@@ -1,8 +1,8 @@
 # Playwright Manipulation Task
 
 This repository contains a Playwright test designed to interact with elements hidden using various CSS techniques. 
-This test is part of the interview process for a job as a Founding Engineer at Patrol AI inc. 
-Founding engineers will be using Playwright regularly in day to day tasks at Patrol AI for numerous purposes that extend far beyond testing. 
+This test is part of the interview process for a job as a Software Engineer at Patrol AI inc. 
+Software engineers will be using Playwright regularly in day to day tasks at Patrol AI for numerous purposes that extend far beyond testing. 
 
 ## Test Instructions 
 
