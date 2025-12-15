@@ -22,7 +22,7 @@ const validateScreenshots = (screenshots : Buffer[]) => {
       throw new Error("Incorrect number of screenshots for validation")
     }
 
-    for(let i : number = 0; i < 7; i++){
+    for(let i : number = 0; i < 8; i++){
         const savedScreenshotBuffer : Buffer = fs.readFileSync(`${__dirname}/../targetScreenshots/screenshot_${i + 1}.png`);
 
         expect(screenshots[i]).toEqual(savedScreenshotBuffer);
